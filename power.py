@@ -1,4 +1,4 @@
 x = int(input("Enter a value: "))
 
-print(x, "^ 2 = ", x ** 2)
-print(x, "^ 3 = ", x ** 3)
+print(str(x) + "^ 2 = " + str(x ** 2))
+print(str(x) + "^ 3 = " + str(x ** 3))
