@@ -4,12 +4,19 @@ x = int(input("Welcome to Rock, Papers, Scissors!\nSelect your hand:\n1 - Rock\n
 y = random.randint(1,3)
 #randomizes a number between 1 and 3, included.
 
-if(y == 1):
-    print("The computer has selected Rock!")
-elif(y == 2):
-    print("The computer has selected Paper!")
+if(x == 1):
+    print("You have selected Rock!\n")
+elif(x == 2):
+    print("You have selected Paper!\n")
 else:
-    print("The computer has selected Scissors!")
+    print("You have selected Scissors!\n")
+#Prints the users selection.
+if(y == 1):
+    print("The computer has selected Rock!\n")
+elif(y == 2):
+    print("The computer has selected Paper!\n")
+else:
+    print("The computer has selected Scissors!\n")
 #Prints the selection of the CPU.
 
 if (x == y):
