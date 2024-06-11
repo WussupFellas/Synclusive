@@ -4,4 +4,3 @@ class Elevator:
         self.max_floor = max_floor
         self.cap = cap
         self.max_cap = max_cap
-        
